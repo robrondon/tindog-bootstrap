@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem !important;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 2% 0 2%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 20%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 24%;
+}
+
+/* Features */
+
+#features {
+  padding: 7% 11%;
+  background-color: white;
+  position: relative;
+}
+
+.features-box {
+  padding: 4%;
+}
+.features-box h3 {
+  font-size: 1.5rem;
+}
+
+.features-box p {
+  color: #8f8f8f;
+}
+
+.features-icon {
+  color: #ef8172;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#testimonials .carousel-item {
+  padding: 7% 11%;
+}
+
+#testimonials h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#testimonials img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 4%;
+}
+
+#press img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 11%;
+}
+
+#cta h3 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* Footer  */
+
+#footer {
+  padding: 7% 11% 13%;
+  background-color: #fff;
+}
+
+#footer i {
+  margin: 2%;
+  font-size: 2rem;
+}
+
+#footer p {
+  color: #8f8f8f;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    margin-top: 40px;
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+}
